@@ -15,7 +15,7 @@ Things to mention are:
 To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
 
 
-## Example Block Diagram 
+## Block Diagram
 Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
 
 <img width="522" height="402" alt="Individual Block Diagram drawio" src="https://github.com/user-attachments/assets/fee54981-551d-43cd-885b-611525bca2d0" />
