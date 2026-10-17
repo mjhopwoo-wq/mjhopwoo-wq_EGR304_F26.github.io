@@ -26,7 +26,7 @@
 
     
       
-        <title>Component Selection Example - EGR 304 Matthew Hopwood Data Sheet</title>
+        <title>Component Selection - EGR 304 Matthew Hopwood Data Sheet</title>
       
     
     
@@ -89,11 +89,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#examples" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -125,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Component Selection Example
+              Component Selection
             
           </span>
         </div>
@@ -513,76 +508,15 @@
       
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Component Selection Example
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Component Selection Example
+    Component Selection
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-      
-        <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#style-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 1
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 2
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -808,47 +742,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-      
-        <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#style-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 1
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 2
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -870,50 +763,16 @@
   
 
 
-  <h1>Component Selection Example</h1>
+  <h1>Component Selection</h1>
 
-<h2 id="examples">Examples</h2>
-<h3 id="style-1">Style 1</h3>
-<blockquote>
-<p>This is the example found in the assignment, uses more html</p>
-</blockquote>
-<p><em>Table 1: Example component selection</em></p>
-<p><strong>External Clock Module</strong></p>
-<table>
-<thead>
-<tr>
-<th><strong>Solution</strong></th>
-<th><strong>Pros</strong></th>
-<th><strong>Cons</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a><br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></td>
-<td>* Inexpensive[^1]<br>* Compatible with PSoC<br>* Meets surface mount constraint of project</td>
-<td>* Requires external components and support circuitry for interface<br>* Needs special PCB layout.</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
-<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
-<td>* More expensive <br>* Slow shipping speed</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
-<h3 id="style-2">Style 2</h3>
-<blockquote>
-<p>Also acceptable, more markdown friendly</p>
-</blockquote>
-<p><strong>External Clock Module</strong></p>
+<p><strong>Voltage Regulators</strong></p>
 <ol>
 <li>
-<p>XC1259TR-ND surface mount crystal</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a></p>
+<p>L805CV Linear Regulator</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/b098f6f3-2e5f-4a80-8b03-07eaab7534ac" data-desc-position="bottom"><img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/b098f6f3-2e5f-4a80-8b03-07eaab7534ac"></a></p>
 <ul>
 <li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
+<li><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -924,26 +783,22 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>Cheap and available</td>
+<td>Bad efficiency roughly 40% loss</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
-</tr>
-<tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td>Up to 35V of input voltage</td>
+<td>Voltage tolerance not as good as other l7805 unit</td>
 </tr>
 </tbody>
 </table>
 </li>
 <li>
-<p>CTX936TR-ND surface mount oscillator</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a></p>
+<p>L7805ABV Linear Regulator</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/8a140cb3-49d0-4821-b753-1651555b1eaa" data-desc-position="bottom"><img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/8a140cb3-49d0-4821-b753-1651555b1eaa"></a></p>
 <ul>
 <li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
+<li><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV/634711">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -954,23 +809,211 @@
 </thead>
 <tbody>
 <tr>
-<td>Outputs a square wave</td>
-<td>More expensive</td>
+<td>Cheap and available</td>
+<td>Bad efficiency roughly 40% loss</td>
 </tr>
 <tr>
-<td>Stable over operating temperature</td>
-<td>Slow shipping speed</td>
+<td>Tighter tolerances on voltage output compared to the other L7805</td>
+<td>Ever so slightly more expensive than the others</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>MC7805CTG Linear Regulator</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/1327da7f-7f1b-45c7-bd78-c1153015c7f8" data-desc-position="bottom"><img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/1327da7f-7f1b-45c7-bd78-c1153015c7f8"></a></p>
+<ul>
+<li>$1/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/onsemi/MC7805CTG/919333">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap and available</td>
+<td>Bad efficiency roughly 40% loss</td>
 </tr>
 <tr>
-<td>Direct interface with PSoC (no external circuitry required) range</td>
-<td></td>
+<td>Easy to model package and standard pin configuration for a breadboard</td>
+<td>Lower current output compared to the others at 1A</td>
 </tr>
 </tbody>
 </table>
 </li>
 </ol>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p><strong>Choice:</strong> Option 2: L805CV Linear Regulator</p>
+<p><strong>Rationale:</strong> While its slightly more expensive than the others its basically negligible in regards to overall budget and its just a bit better than the others so its a worth it tradeoff.</p>
+<p><strong>H-Bridges</strong></p>
+<ol>
+<li>
+<p>Texas Instruments SN754410NE</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/cd4f77e3-ea23-4e1e-92f0-4cba1f27b16a" data-desc-position="bottom"><img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/cd4f77e3-ea23-4e1e-92f0-4cba1f27b16a"></a></p>
+<ul>
+<li>$4.40/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/SN754410NE/380180">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Standard 16-DIP package for easy hand soldering or IC socket mounting.</td>
+<td>Bipolar transistor design creates ~1.2V–1.8V internal voltage drop, reducing voltage to the motor.</td>
+</tr>
+<tr>
+<td>Features built-in output ESD protection diodes.</td>
+<td>Max 1A continuous output current per channel.</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>STMicroelectronics L298N</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/3c015a6a-3b48-4b23-b819-f798630d702c" data-desc-position="bottom"><img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/3c015a6a-3b48-4b23-b819-f798630d702c"></a></p>
+<ul>
+<li>$13.60/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L298N/585918">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High output current capacity (up to 2A continuous per channel).</td>
+<td>Large physical package with non-standard pin staggered row spacing.</td>
+</tr>
+<tr>
+<td>Accepts wide motor supply voltage ranges (up to 46V)</td>
+<td>High voltage drop requires external flyback diodes on custom PCBs.</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Texas Instruments L293D</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/5794417a-7fcb-441f-b25a-b90bccdb2e24" data-desc-position="bottom"><img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/5794417a-7fcb-441f-b25a-b90bccdb2e24"></a></p>
+<ul>
+<li>$10.60/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L293D/634700">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Industry standard, extremely easy to find and drive with logic levels.</td>
+<td>Lower current handling capacity (600mA continuous per channel).</td>
+</tr>
+<tr>
+<td>Built-in internal clamp diodes protect against inductive kickback.</td>
+<td>High internal saturation voltage loss under heavy motor loads.</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 1: Texas Instruments SN754410NE</p>
+<p><strong>Rationale:</strong> It is the most cost efficient option on top of checking all the necessary boxes and allowing for easy and effective design through its standard dip package. </p>
+<p><strong>Vibration Motors</strong></p>
+<ol>
+<li>
+<p>Vybronics VC1030B028F</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/1bf6476e-a40a-48a8-b20a-ce7b2be0e5aa" data-desc-position="bottom"><img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/1bf6476e-a40a-48a8-b20a-ce7b2be0e5aa"></a></p>
+<ul>
+<li>$2.94/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/vybronics-inc/VC1030B028F/7732327?s=N4IgTCBcDaIGoGECMAGAzCgQisAOAYiALoC%2BQA">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Smallest footprint size compared to the others</td>
+<td>Weakest haptics of the bunch at 0.9G which may be too little</td>
+</tr>
+<tr>
+<td>Draws only ~64–80mA typical current</td>
+<td>Fixed single axis motion meaning vibration is restricted strictly perpendicular to the mounting plane.</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Vybronics VC1234B016F</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/4d92e750-e272-40ae-b8ab-007265dd7e72" data-desc-position="bottom"><img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/4d92e750-e272-40ae-b8ab-007265dd7e72"></a></p>
+<ul>
+<li>$3.23/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/vybronics-inc/VC1234B016F/9974297?s=N4IgTCBcDaIGoGECMYDMAWAQgBiQNgDEQBdAXyA">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stronger haptics than the first option at 2G</td>
+<td>Larger footprint compared to the first one</td>
+</tr>
+<tr>
+<td>Deeper Vibration because it operates at a lower frequency</td>
+<td>Takes slightly longer to spin up to speed and stop due to its heavier internal rotating mass.</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Vybronics VZ7AL2B1692082</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/09d3d1f8-a262-4387-98a9-7a7effa027c1" data-desc-position="bottom"><img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/09d3d1f8-a262-4387-98a9-7a7effa027c1"></a></p>
+<ul>
+<li>$4.04/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/vybronics-inc/VZ7AL2B1692082/6009928">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Significantly stronger than both options at 5.1G</td>
+<td>Cylindrical shape requires special housing/mounting compared to sticking it on part of the chasis</td>
+</tr>
+<tr>
+<td>Everything is fully enclosed so no need to worry about physical interference</td>
+<td>Largest by volume, while it is thinner it is taller</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 3: Vybronics VZ7AL2B1692082</p>
+<p><strong>Rationale:</strong> They are are fairly similar in price and with that being taken into consideration the significantly improved haptics on option 3 make it the best fit. While the drawbacks in terms of size may require more design considerations the tradeoff of better haptics is well worth it.</p>
 
 
 
