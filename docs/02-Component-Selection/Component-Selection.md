@@ -131,7 +131,3 @@ title: Component Selection
 **Choice:** Option 3: Vybronics VZ7AL2B1692082
 
 **Rationale:** They are are fairly similar in price and with that being taken into consideration the significantly improved haptics on option 3 make it the best fit. While the drawbacks in terms of size may require more design considerations the tradeoff of better haptics is well worth it.
-
----
-Power Budget
----
