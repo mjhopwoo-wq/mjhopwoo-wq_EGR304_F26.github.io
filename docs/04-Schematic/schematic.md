@@ -6,7 +6,7 @@ title: Schematic
 
 This schematic is designed to create a circuit that takes input from another subsytem board and actuate a vibration motor to wake up drowsy drivers
 
-<img width="1572" height="1115" alt="image" src="https://github.com/user-attachments/assets/749622cc-6ca3-44fc-b088-8eed3116c6f9" />
+<img width="1572" height="1112" alt="image" src="https://github.com/user-attachments/assets/e8cbaa16-499a-44d6-ac62-254858b741e5" />
 
 
 **Figure 1:** Showing a Rev 1 of Subsystem Schematic.
