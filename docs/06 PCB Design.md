@@ -1,5 +1,0 @@
----
-title: PCB Design
----
-
-## Overview
