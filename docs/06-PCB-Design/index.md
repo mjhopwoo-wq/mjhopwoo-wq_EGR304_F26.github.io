@@ -13,6 +13,11 @@ This page is dedicated to documenting and displaying the haptic subsystem create
 | ---------------- | ----------------- |
 | <img width="904" height="850" alt="image" src="https://github.com/user-attachments/assets/4bf91ffb-0b5d-47eb-aad8-7124d897ca98" /> | <img width="902" height="848" alt="image" src="https://github.com/user-attachments/assets/04faa636-30d8-43f5-9853-2ec4a1e31ea6" /> |
 
+## PCB Layout
+[Front PDF](https://github.com/user-attachments/files/34612651/Front.pdf)
+
+[Back PDF](https://github.com/user-attachments/files/34612658/Back.pdf)
+
 ## KiCad Project Files
 [Project Zip File](https://github.com/user-attachments/files/34612441/MatthewHopwood104.zip)
 
